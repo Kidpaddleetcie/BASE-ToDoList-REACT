@@ -1,0 +1,146 @@
+body {
+    background-color: #00a6d8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'FontAwesome';
+    text-align: center;
+    font-size: 6.2vw;
+    color: white;
+    display: inline-block;
+}
+
+.scroller {
+    overflow-y: scroll;
+    height: 275px;
+    padding-bottom: 20px;
+    width: 75vw;
+}
+
+.scroller-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+.scroller::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    background-color: #0ae;
+}
+
+h2 {
+    font-family: 'FontAwesome';
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+form {
+    font-family: 'FontAwesome';
+}
+
+.ajout_tache {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0.1vw;
+    margin-top: 0.1vw;
+    padding-right: 0.5vw;
+    border: 3px solid white;
+    border-radius: 10vw;
+    background-color: #00a6d8;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: background-color .2s, padding-right .5s;
+    transition: background-color .2s, padding-right .5s;
+    width: 70%;
+}
+
+.ajout_tache:focus {
+    border: 3px solid #00a6d8;
+    border-radius: 10vw;
+    background-color: white;
+}
+
+.ajout_tache::placeholder {
+    color: white;
+    padding-left: 2vw;
+}
+
+.taches_ajoute {
+    display: block;
+    background-color: #00a6d8;
+    border: 3px solid white;
+    color: white;
+    padding-left: 35vw;
+    border-radius: 120px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.taches_ajoute:hover>span {
+    color: rgba(255, 0, 0, 0.603);
+}
+
+.taches_ajoute:hover {
+    border: 3px solid red;
+    background-color: white;
+    padding-left: 0vw;
+}
+
+.separe {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+
+.separe>button {
+    margin: 5px;
+    font-family: 'FontAwesome';
+    width: 25%;
+    font-family: 'FontAwesome';
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0.1vw;
+    margin-top: 0.1vw;
+    padding-right: 0.5vw;
+    border: 3px solid white;
+    border-radius: 10vw;
+    color: white;
+    background-color: #00a6d8;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: background-color .2s, padding-right .5s;
+    transition: background-color .2s, padding-right .5s;
+}
+
+
+/*# sourceMappingURL=todolist.css.map */
